@@ -8,230 +8,233 @@ body{
     font-family:Arial, sans-serif;
 }
 
-/* Navbar */
-
 nav{
-
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
     padding:20px 80px;
-
     background:white;
-
 }
 
-/* Logo */
-
 .logo{
-
     display:flex;
-
     align-items:center;
-
     gap:12px;
-
 }
 
 .logo img{
-
     width:120px;
-
     height:120px;
-
     object-fit:contain;
-
 }
+
 .logo h2{
-
     font-size:18px;
-
     font-weight:bold;
-
     line-height:1.1;
-
 }
 
-/* Menu */
-
-ul{
-
+nav ul{
     display:flex;
-
     list-style:none;
-
     gap:35px;
-
 }
 
 a{
-
     text-decoration:none;
-
     color:#555;
-
     font-size:16px;
-
     font-weight:500;
-
 }
 
 a:hover{
-
     color:black;
-
 }
 
-/* Button */
-
 button{
-
     background:#2F5BFF;
-
     color:white;
-
     border:none;
-
     padding:14px 35px;
-
     border-radius:8px;
-
     font-size:16px;
-
     font-weight:600;
-
     cursor:pointer;
-
 }
 
 button:hover{
-
     background:#1f46d8;
-
 }
 
-/* Header */
-
 header{
-
     background-image:
     linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
     url("./images/banner.jpg");
-
     height:90vh;
-
     background-repeat:no-repeat;
-
     background-size:cover;
-
     background-position:center;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
 }
 
-/* Header Content */
-
 .header-content{
-
     width:70%;
-
     text-align:center;
-
     color:white;
-
 }
 
 .header-content h1{
-
     font-size:72px;
-
     margin-bottom:20px;
-
 }
 
 .header-content i{
-
     font-style:italic;
-
 }
 
 .header-content p{
-
     width:70%;
-
     margin:0 auto 35px;
-
     font-size:22px;
-
     line-height:1.6;
-
 }
 
 .header-content button{
-
     padding:16px 40px;
-
     font-size:18px;
-
 }
 
 .speakers{
-    padding: 80px;
-    background-color: #f8f9fc;
+    padding:80px;
+    background:#f8f9fc;
 }
 
 .speakers h2{
-    text-align: center;
-    font-size: 42px;
-    margin-bottom: 40px;
+    text-align:center;
+    font-size:42px;
+    margin-bottom:40px;
 }
 
 .speaker-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 30px;
-    width: 85%;
-    margin: auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    width:85%;
+    margin:auto;
 }
 
 .speaker-card{
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
 
-
 .speaker-card img{
-    width: 100%;
-    height: 280px;
-    object-fit: cover;
+    width:100%;
+    height:280px;
+    object-fit:cover;
 }
 
 .speaker-info{
-    padding: 20px;
+    padding:20px;
 }
 
 .company{
-    color: #2F5BFF;
-    font-size: 13px;
-    font-weight: bold;
+    color:#2F5BFF;
+    font-size:13px;
+    font-weight:bold;
 }
 
 .speaker-info h3{
-    margin: 10px 0;
-    font-size: 24px;
+    margin:10px 0;
+    font-size:24px;
 }
 
 .speaker-info p{
-    color: gray;
-    font-size: 15px;
+    color:gray;
+    font-size:15px;
+}
+
+.pricing{
+    padding:80px;
+    background:#f8f9fc;
+    text-align:center;
+}
+
+.pricing h2{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.pricing > p{
+    color:gray;
+    margin-bottom:50px;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.price-card{
+    width:320px;
+    background:white;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:30px;
+    text-align:left;
+}
+
+.price-card h5{
+    color:#888;
+    margin-bottom:15px;
+}
+
+.price-card h1{
+    font-size:48px;
+    margin-bottom:5px;
+}
+
+.price-card span{
+    color:#888;
+    font-size:14px;
+}
+
+.price-card ul{
+    display:block;
+    list-style:disc;
+    padding-left:20px;
+    margin:25px 0;
+}
+
+.price-card ul li{
+    margin-bottom:12px;
+}
+
+.price-card button{
+    width:100%;
+}
+
+.price-card.active{
+    background:#0F172A;
+    color:white;
+    transform:scale(1.05);
+}
+
+.price-card.active h5,
+.price-card.active span{
+    color:#CBD5E1;
+}
+
+.price-card.active ul li{
+    color:white;
+}
+
+.price-card.active button{
+    background:#2563EB;
+    color:white;
 }

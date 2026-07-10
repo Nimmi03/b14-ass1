@@ -12,7 +12,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px 80px;
+    padding:12px 60px;
     background:white;
 }
 
@@ -23,8 +23,8 @@ nav{
 }
 
 .logo img{
-    width:120px;
-    height:120px;
+    width:80px;
+    height:80px;
     object-fit:contain;
 }
 
@@ -80,13 +80,13 @@ header{
 }
 
 .header-content{
-    width:70%;
+    width:50%;
     text-align:center;
     color:white;
 }
 
 .header-content h1{
-    font-size:72px;
+    font-size:42px;
     margin-bottom:20px;
 }
 
@@ -98,7 +98,7 @@ header{
     width:70%;
     margin:0 auto 35px;
     font-size:22px;
-    line-height:1.6;
+    line-height:1.8;
 }
 
 .header-content button{
@@ -237,4 +237,34 @@ header{
 .price-card.active button{
     background:#2563EB;
     color:white;
+}
+.ai-section{
+    max-width: 1140px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.ai-box{
+    height: 500px;
+    border: 2px dashed #8B5CF6;
+    border-radius: 20px;
+    background: #F5F3FF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai-box h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #6D28D9;
+    margin-bottom: 10px;
+}
+
+.ai-box p{
+    font-size: 40px;
+    font-weight: 600;
+    color: #8B5CF6;
 }

@@ -1,0 +1,3 @@
+# AI Prompt
+
+Create a responsive "Something Missing?" section below the pricing section using only HTML and CSS. The section should have a light purple background, a purple dashed border with rounded corners, and the content should be centered both horizontally and vertically. Add the heading "Something Missing?" and the subtitle "Generate a relevant section with AI". Use Flexbox for alignment and make the section responsive for mobile devices using media queries.

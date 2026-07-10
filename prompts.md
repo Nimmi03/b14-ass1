@@ -1,3 +1,1 @@
-# AI Prompt
-
-Create a responsive "Something Missing?" section below the pricing section using only HTML and CSS. The section should have a light purple background, a purple dashed border with rounded corners, and the content should be centered both horizontally and vertically. Add the heading "Something Missing?" and the subtitle "Generate a relevant section with AI". Use Flexbox for alignment and make the section responsive for mobile devices using media queries.
+Create a responsive Newsletter Signup section for a DevConf 2026 website using only HTML and CSS. The section should include a heading, a short description, an email input field, and a Subscribe button. The design should be clean, modern, and match the DevConf 2026 theme. Do not use JavaScript or CSS frameworks.
